@@ -1,4 +1,4 @@
-# Custom Card for OpenWeatherHistory Component V4 <img src="https://github.com/petergridge/irrigation_card/blob/main/icon.png" alt="drawing" width="75"/>
+# Custom Card for OpenWeatherHistory Component<img src="https://github.com/petergridge/irrigation_card/blob/main/icon.png" alt="drawing" width="75"/>
 
 ## Installation
 HACS installation
