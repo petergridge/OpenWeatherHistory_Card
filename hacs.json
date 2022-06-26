@@ -1,6 +1,6 @@
 {
-  "name": "IrrigationProgram Custom Card",
+  "name": "OpenWeatherHistory Custom Card",
   "content_in_root": false,
   "render_readme": true,
-  "filename": "irrigation-card.js"
+  "filename": "openweathermaphistory.js"
 }
