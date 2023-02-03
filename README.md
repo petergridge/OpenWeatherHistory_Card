@@ -15,7 +15,7 @@ Manual install
 
 **type:** (required) custom:open-weather-map-history-card
 
-**program:** (required) The openweatherhistory sensor
+**entity_id:** (required) The openweatherhistory sensor
 
 **title:** (optional) The title to be set in the card. defaults to the program freindly name
 
