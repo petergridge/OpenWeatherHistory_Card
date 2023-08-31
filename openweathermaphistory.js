@@ -17,27 +17,27 @@ class OpenWeathMapHistoryCard extends HTMLElement {
     const attributes = new Map();
 	attributes.set (`rain`,{
 		name: `Rain`,
-		value0: _getAttribute('day_0_rain'),
-		value1: _getAttribute('day_1_rain'),
-		value2: _getAttribute('day_2_rain'),
-		value3: _getAttribute('day_3_rain'),
-		value4: _getAttribute('day_4_rain'),
+		value0: _getAttribute('day0rain'),
+		value1: _getAttribute('day1rain'),
+		value2: _getAttribute('day2rain'),
+		value3: _getAttribute('day3rain'),
+		value4: _getAttribute('day4rain'),
 	})
 	attributes.set (`min`,{
 		name: `Min Temp`,
-		value0: _getAttribute('day_0_min'),
-		value1: _getAttribute('day_1_min'),
-		value2: _getAttribute('day_2_min'),
-		value3: _getAttribute('day_3_min'),
-		value4: _getAttribute('day_4_min'),
+		value0: _getAttribute('day0min'),
+		value1: _getAttribute('day1min'),
+		value2: _getAttribute('day2min'),
+		value3: _getAttribute('day3min'),
+		value4: _getAttribute('day4min'),
 	})
 	attributes.set (`max`,{
 		name: `Max Temp`,
-		value0: _getAttribute('day_0_max'),
-		value1: _getAttribute('day_1_max'),
-		value2: _getAttribute('day_2_max'),
-		value3: _getAttribute('day_3_max'),
-		value4: _getAttribute('day_4_max'),
+		value0: _getAttribute('day0max'),
+		value1: _getAttribute('day1max'),
+		value2: _getAttribute('day2max'),
+		value3: _getAttribute('day3max'),
+		value4: _getAttribute('day4max'),
 	})
     return Array.from(attributes.values());
   }
